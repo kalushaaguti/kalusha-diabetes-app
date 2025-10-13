@@ -9,6 +9,14 @@ import numpy as np
 import pickle
 import streamlit as st
 
+st.set_page_config(
+    page_title="Diabetes Prediction App",
+    page_icon="💉",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+
 # Load the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
@@ -63,4 +71,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
