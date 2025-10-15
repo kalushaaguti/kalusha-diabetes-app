@@ -4,3 +4,5 @@ Machine Learning web app built with Streamlit to predict whether a person is dia
 
 This project is a machine learning–based diabetes prediction app developed using Python, Scikit-learn, and Streamlit.
 It allows users to input key medical parameters and instantly predicts diabetes status (Diabetic or Non-Diabetic) using a trained classification model.
+
+Link: https://kalusha-diabetes-webapp.streamlit.app
